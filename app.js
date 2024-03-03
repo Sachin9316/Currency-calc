@@ -6,6 +6,8 @@ const fromCurr = document.querySelector(".from select")
 const toCurr = document.querySelector(".to select")
 const msg = document.querySelector(".message");
 
+// Hello , How are You
+
 for(let select of dropdowns){
     for (currCode in countryList){
         // console.log(currCode);
